@@ -1,0 +1,15 @@
+#location{
+  display: none;
+}
+
+#location-details{
+  display: none;
+}
+
+.location-details{
+  display: none;
+}
+
+.jumbotron {
+  text-align: center;
+}

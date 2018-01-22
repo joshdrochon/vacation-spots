@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Spots</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Vacation Spots</h2>
+      </div>
+    <form id="form1">
+      Where'd you go? <input id="where" type="text" name="" value="">
+      What time of year? <input id="when" type="text" name="" value="">
+      How long did you stay? <input id="how-long" type="text" name="" value="">
+      <button class="btn btn-success" type="submit" name="button">Submit</button>
+    </form>
+    <div class="col-md-6">
+
+
+    
+      <ul id="location">
+      </ul>
+
+
+    </div><!--end initially-hidden-->
+
+    <div class="col-md-6">
+      <div id="location-details">
+        <p>Location: <span class="locationSpec"></span></p>
+        <p>Time of year: <span class="time-of-year"></span></p>
+        <p>Duration: <span class="duration"></span></p>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
